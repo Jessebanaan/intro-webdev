@@ -1,14 +1,27 @@
+body {
+    margin: 0;
+}
+
 #header {
-    background-color: #f2f2f2;
-    height: 100px;
+    background-color: #747474;
+    padding: 20px;
 }
 
 #content {
     background-color: #c9c9c9;
-    height: 400px;
+    padding: 20px;
 }
 
 #footer {
-    background-color: #b3b3b3;
-    height: 100px;
+    background-color: #747474;
+    padding: 20px;
+    clear: both;
+}
+
+img {
+    border: 10px solid #c9c9c9;
+}
+
+img:hover {
+    border: 10px solid #747474;
 }
