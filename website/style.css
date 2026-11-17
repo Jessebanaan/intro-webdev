@@ -1,27 +1,52 @@
 body {
+
     margin: 0;
+
 }
 
 #header {
+
     background-color: #747474;
+
     padding: 20px;
+
 }
 
-#content {
-    background-color: #c9c9c9;
+#producten {
+    background-color: #eeeeee;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Zorgt dat kaarten netjes naar de volgende regel gaan */
+    justify-content: center;
+    gap: 10px; /* Ruimte tussen de productkaarten */
+}
+
+.product-kaart {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    width: 350px; /* Vaste breedte voor een mooie webshop-look */
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.product-kaart img {
+    width: 100%; /* Zorgt dat de afbeelding netjes binnen de kaart past */
+    height: auto;
+    border: 10px solid #c9c9c9;
+    box-sizing: border-box;
+}
+
+.product-kaart img:hover {
+    border: 10px solid #747474;
 }
 
 #footer {
+
     background-color: #747474;
+
     padding: 20px;
+
     clear: both;
-}
 
-img {
-    border: 10px solid #c9c9c9;
-}
-
-img:hover {
-    border: 10px solid #747474;
 }
