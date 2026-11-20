@@ -1,11 +1,11 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
-  /* Achtergrondfoto instellen */
-  background-image: url("images/imsadaytona.webp"); /* Pas de bestandsnaam aan naar jouw foto */
-  background-size: cover; /* Zorgt dat de foto het hele scherm vult */
-  background-position: center; /* Houdt de foto mooi gecentreerd */
-  background-attachment: fixed; /* Zorgt dat de foto stilstaat als je scrollt */
+  /* Achtergrondfoto  */
+  background-image: url("images/imsadaytona.webp");
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
 }
 
 #header {
