@@ -1,52 +1,68 @@
 body {
-
-    margin: 0;
-
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  /* Achtergrondfoto instellen */
+  background-image: url("images/imsadaytona.webp"); /* Pas de bestandsnaam aan naar jouw foto */
+  background-size: cover; /* Zorgt dat de foto het hele scherm vult */
+  background-position: center; /* Houdt de foto mooi gecentreerd */
+  background-attachment: fixed; /* Zorgt dat de foto stilstaat als je scrollt */
 }
 
 #header {
+  background-color: rgba(116, 116, 116, 0.9); /* Licht doorzichtig grijs */
+  color: white;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
-    background-color: #747474;
-
-    padding: 20px;
-
+#content {
+  background-color: rgba(255, 255, 255, 0.9); /* Licht wit vlak zodat de achtergrondfoto zacht blijft */
+  max-width: 800px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 8px;
+  box-sizing: border-box;
 }
 
 #producten {
-    background-color: #eeeeee;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap; /* Zorgt dat kaarten netjes naar de volgende regel gaan */
-    justify-content: center;
-    gap: 10px; /* Ruimte tussen de productkaarten */
+  background-color: rgba(
+    238,
+    238,
+    238,
+    0.9
+  ); /* Maakt het vlak achter de producten licht doorzichtig */
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
 }
 
 .product-kaart {
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    padding: 20px;
-    width: 350px; /* Vaste breedte voor een mooie webshop-look */
-    box-sizing: border-box;
-    border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  width: 350px;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
 
 .product-kaart img {
-    width: 100%; /* Zorgt dat de afbeelding netjes binnen de kaart past */
-    height: auto;
-    border: 10px solid #c9c9c9;
-    box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  border: 10px solid #c9c9c9;
+  box-sizing: border-box;
 }
 
 .product-kaart img:hover {
-    border: 10px solid #747474;
+  border: 10px solid #747474;
 }
 
 #footer {
-
-    background-color: #747474;
-
-    padding: 20px;
-
-    clear: both;
-
+  background-color: rgba(116, 116, 116, 0.9);
+  color: white;
+  padding: 30px;
+  clear: both;
 }
