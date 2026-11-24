@@ -9,7 +9,12 @@
   <body>
 
     <div id="header">
-      <h1>Koop een raceauto</h1>
+      <?php
+$winkelnaam = "Koop een raceauto";
+$aantalAutos = 6;
+?>
+<h1><?php echo $winkelnaam; ?></h1>
+<p>We hebben <?php echo $aantalAutos; ?> auto's in de winkel.</p>
     </div>
 
     <div id="producten">
@@ -92,6 +97,6 @@
       </div>
     </div>
 
-    <div id="footer">&copy; 2026 Koop een raceauto</div>
+    <div id="footer">&copy; <?php echo date("Y"); ?> Koop een raceauto</div>
   </body>
 </html>
