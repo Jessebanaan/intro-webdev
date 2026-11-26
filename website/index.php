@@ -8,14 +8,7 @@
   </head>
   <body>
 
-    <div id="header">
-      <?php
-$winkelnaam = "Koop een raceauto";
-$aantalAutos = 6;
-?>
-<h1><?php echo $winkelnaam; ?></h1>
-<p>We hebben <?php echo $aantalAutos; ?> auto's in de winkel.</p>
-    </div>
+<?php include "includes/header.php"; ?>
 
     <div id="producten">
       <!-- Ligier LMP3 -->
@@ -97,6 +90,6 @@ $aantalAutos = 6;
       </div>
     </div>
 
-    <div id="footer">&copy; <?php echo date("Y"); ?> Koop een raceauto</div>
+    <?php include "includes/footer.php"; ?>
   </body>
 </html>
